@@ -1,0 +1,73 @@
+/*!-----------------------------------------------------------------------------
+ * shining_star
+ * v1.0 - built 2017-10-30
+ * Licensed under the MIT License.
+ * http://www.testersite.it/github/easy_background/v3/
+ * ----------------------------------------------------------------------------
+ * Copyright (C) 2017 Eugenio Segala
+ * --------------------------------------------------------------------------*/
+
+
+/**
+ * Get a random floating point number between `min` and `max`.
+ *
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {number} a random floating point number
+ */
+function getRandomFloat(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+/**
+ * Get a random integer between `min` and `max`.
+ *
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {number} a random integer
+ */
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+
+
+
+function blink_stars(selector) {
+
+  var width = document.querySelector(selector).offsetWidth;
+  var height = document.querySelector(selector).offsetHeight;
+
+  //alert(width);
+
+  var i = 0;
+
+
+
+  for (i = 0; i < 1000; i++) {
+
+
+    /*
+          setTimeout(function(){
+
+          document.querySelector(selector).innerHTML += '<div style="animation: blinker ' + getRandomFloat(3, 5) + 's linear infinite; position: absolute; top: ' + getRandomInt(0, height) + '; left: ' + getRandomInt(0, width) + ';" class="blink enter-star"><img width="' + getRandomInt(1, 3) +
+            '" src="stella.svg"></div>';
+
+        }, (i * 10) );
+    */
+
+    setTimeout(function() {
+
+      $(selector).append('<div style="animation: blinker ' + getRandomFloat(3, 5) + 's linear infinite; position: absolute; top: ' + getRandomInt(0, height) + 'px; left: ' + getRandomInt(0, width) +
+        'px;" class="blink enter-star"><img class="fading" width="' + getRandomInt(1, 2) +
+        '" src="img/stella.svg"></div>');
+
+
+    //  console.log(1);
+
+    }, (i * 20));
+    //   }, (i * 50) );
+  }
+
+
+}
