@@ -14,12 +14,14 @@ Just insert:
 and call shining_star:
 
 ```
-blink_stars(".demo");
+shining_star(".demo");
 ```
 <br>
 
 NOTE:
 This script work with jQuery.
+
+<br>
 
 <p>💾💾💾 <a href="http://www.testersite.it/github/shining_star/v1/">DEMO HERE</a> 💾💾💾</p>
 

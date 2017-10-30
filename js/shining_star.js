@@ -15,6 +15,7 @@
  * @param {number} max - max number
  * @return {number} a random floating point number
  */
+ 
 function getRandomFloat(min, max) {
   return Math.random() * (max - min) + min;
 }
@@ -33,7 +34,7 @@ function getRandomInt(min, max) {
 
 
 
-function blink_stars(selector) {
+function shining_star(selector) {
 
   var width = document.querySelector(selector).offsetWidth;
   var height = document.querySelector(selector).offsetHeight;
