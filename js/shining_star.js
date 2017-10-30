@@ -15,7 +15,7 @@
  * @param {number} max - max number
  * @return {number} a random floating point number
  */
- 
+
 function getRandomFloat(min, max) {
   return Math.random() * (max - min) + min;
 }
@@ -38,6 +38,8 @@ function shining_star(selector) {
 
   var width = document.querySelector(selector).offsetWidth;
   var height = document.querySelector(selector).offsetHeight;
+
+  document.querySelector(selector).style.position = "relative";
 
   //alert(width);
 
