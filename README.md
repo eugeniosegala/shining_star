@@ -14,7 +14,8 @@ Just insert:
 and call shining_star:
 
 ```
-shining_star(".demo");
+// FIRST SELECTOR, NUMBER OF STARS (1000) AND PROPAGATION TIME (20 = 20s).
+shining_star(".demo", 1000, 20);
 ```
 <br>
 
