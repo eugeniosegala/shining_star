@@ -18,7 +18,6 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -30,6 +29,8 @@
       overflow: hidden;
       height: 100%;
       width: 100%;
+      border: 1vh solid #0068d6
+
     }
 
     .demo {
@@ -56,10 +57,9 @@
 
 <body>
 
+  <a href="https://github.com/eugeniosegala/shining_star"><img style="z-index: 9999; position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
 
   <div class="demo">
-
-    <a href="https://github.com/Sn01k3r/shining_star"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
 
     <div class="container ct">
 
@@ -69,7 +69,6 @@
 
       </div>
 
-
     </div>
 
   </div>
@@ -78,7 +77,7 @@
   <script src="js/shining_star.js"></script>
 
   <script>
-    shining_star(".demo");
+    shining_star(".demo", 1000, 20);
   </script>
 
 </body>
