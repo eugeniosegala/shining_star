@@ -21,7 +21,7 @@ shining_star(".demo", 1000, 20);
 
 NOTE:
 More stars you use the more your browser consumes!
-This script work with jQuery.
+This script works with jQuery.
 
 <br>
 
