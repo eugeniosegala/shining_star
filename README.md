@@ -27,8 +27,6 @@ This script works with jQuery.
 
 <p><a href="https://trusting-jepsen-81cf46.netlify.app/">DEMO HERE</a></p>
 
-<br>
-
 # MIT License
 
 Copyright (c) 2017 Eugenio Segala
