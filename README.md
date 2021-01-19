@@ -25,7 +25,7 @@ This script works with jQuery.
 
 <br>
 
-<p><a href="http://www.testersite.it/github/shining_star/v1/">DEMO HERE</a></p>
+<p><a href="https://trusting-jepsen-81cf46.netlify.app/">DEMO HERE</a></p>
 
 <br>
 
